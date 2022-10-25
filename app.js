@@ -44,6 +44,9 @@ app.post('/send', (req, res)=>{
           user: testAccount.user, // generated ethereal user
           pass: testAccount.pass, // generated ethereal password
         },
+        tls:{
+            rejectUnauthorized:false
+        }
       });
     
       // send mail with defined transport object

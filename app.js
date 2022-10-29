@@ -9,19 +9,21 @@ const app = express();
 
 app.listen(port, ()=> console.log('Server Started'));
 app.set('view engine', 'ejs');
-app.set
+app.set('views', 'views');
+
 // Body Parser Middleware
 app.use(bodyParser.urlencoded({ extended: false }))
 
 // parse application/json
 app.use(bodyParser.json())
 
-// setting Express static folder
-express.static('public')
+// Use express Static
+app.use(express.static('public'))
+
 
 
 app.get('/', (req, res)=>{
-        res.send('Hello World')
+        res.render('index', { title : 'Home'})
 })
 
 app.post('/send', (req, res)=>{

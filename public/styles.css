@@ -73,7 +73,7 @@ nav{
    color: var(--secondary-color);
 }
 
-#sticky{
+#Sticky{
     position: fixed;
     top: 0;
     width: 100%;
@@ -114,6 +114,14 @@ margin-top: 15em;
     padding: 15px 15px;
     background: var(--primary-color);
     border-radius: 20px;
-    margin-left: 11em;
+    margin-left: 11.6em;
     margin-top: 1em;
+}
+
+/* About */
+
+section#about{
+    height: 90vh;
+    background: var(--secondary-color);
+
 }

@@ -31,7 +31,7 @@ app.get('/home', (req, res)=>{
 })
 
 
-app.get('/sendemail', (req, res)=>{
+app.get('/send', (req, res)=>{
     res.render('send', { title : 'Send Email'})
 })
 

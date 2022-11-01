@@ -138,3 +138,43 @@ section#about{
     background: var(--secondary-color);
 
 }
+
+
+#about-spacing{
+    display: flex;
+    justify-content : space-between;
+    
+}
+#mail-stuff{
+   height: 600px;
+
+}
+
+#left{
+    margin-top: 10em;
+    padding: 0px 40px;
+}
+
+#cto{
+    font-size: 36px;
+    font-family: Poppins;
+    color: var(--primary-color);
+    margin-bottom: .5em;
+}
+
+#info{
+    font-size: 18px;
+    color: var(--tertiary-color);
+    font-family: 'Roboto';
+    margin-bottom: .5em;
+}
+
+
+#start{
+    background: var(--primary-color);
+    padding: 10px 70px;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: "Roboto";
+    color: white;
+}

@@ -3,9 +3,25 @@
 <%- include('./partials/head.ejs') %> 
 <body>
         <%- include('./partials/nav.ejs') %> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <section>
+      <form method="post" action="/send">
+        <Label for="recievermail"> Recievers Email</Label>
+        <br>
+        <input name="recievermail" type="email"><br>
+        <label for="Title"> Title</label><br>
+ 
+        <input name ='title' type="text"><br>
+        <label name="description"> Content</label>
+        <input name ='description' type="text">
+        
+        <button>Send</button>
+      </form>
+    </section>
 
-        <section>
-            <div></div>
-        </section>
 </body>
 </html>
